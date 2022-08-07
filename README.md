@@ -15,7 +15,7 @@ Symfony tutorial
 | Part 9         | Twigs layouts & blocks explained |
 | Part 10        | How to create a database |
 | Part 11        | Introduction to Doctrine |
-| Part 13        | Doctrine Relationships Explained |
+| Part 12        | Doctrine Relationships Explained |
 
 ## **2. MCV**
 * **Model** 
@@ -28,13 +28,22 @@ Symfony tutorial
 * **View** 
     * User interface of the application 
 
-## **3. Creating a new Symfony Project**
+## **5. Setting up our project & directory explained** 
+Creating a new Symfony Project:
 
+    composer create-project symfony/skeleton *project name*
+or
 
+    composer symfony/(website-)skeleton *project name*
 
+Project tree:
+* bin
+* config
+* public (root of our dir)
+* src (code right here)
+* var (cache and logs)
+* vendor (packages)
 
-
-
-
+<br>
 
 [**Youtube Link** - Symfony Tutorial ](https://www.youtube.com/watch?v=NyRWaQo1pZo) 
